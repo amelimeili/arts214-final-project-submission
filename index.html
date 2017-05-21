@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/index.css">
+
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
+</head>
+
+<body>
+<img src = "img/icon/thumbnail/logo_name.png" class="header-img" >
+<table class="table-menu">
+  <tr>
+    <td width="25%" height="24"><a href="home.html" target="iframe1" class="menu-link">Home</a></td>
+    <td width="25%"><a href="photo.html" target="iframe1" class="menu-link">Photogragh</a></td>
+    <td width="25%"><a href="portfolio.html" target="iframe1" class="menu-link">Illustration</a></td>
+    <td width="25%"><a href="about.html" target="iframe1" class="menu-link">About</a></td>
+</tr></table>
+</body>
+
+<iframe name="iframe1" src="home.html" class="iframe" onload="resizeIframe(this)"></iframe>
+
+<table class="footer"><tr>
+  <td>
+  <a href="https://www.instagram.com/ylime_10969/" data_temp_dwid="0"><img src="img/icon/thumbnail/ig.png" data_temp_dwid="1"></a>
+  <a href="https://www.facebook.com/aimeili.yang" data_temp_dwid="0"><img src="img/icon/thumbnail/fb.png" data_temp_dwid="1"></a>
+  </td>
+
+</tr></table>
+
+</html>

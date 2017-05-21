@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "little-Days";
+    src: url(font/Little-days.ttf);
+}
+.header-img{
+  height: 15%;
+  margin-top: 3%;
+  margin-left: 32%;
+}
+.table-menu{
+margin-top: 2%;
+width: 100%;
+font-size: 20px;
+text-align: center;
+
+}
+
+.iframe{
+  width: 100%;
+margin-top: 2%;
+height: 58%;
+border: 0;
+
+}.footer{
+  text-align: center;
+    width: 100%;
+        margin-top: 2%;
+}
+
+.menu-link{
+	font-family: "little days";
+      text-decoration: none;
+      color: black;
+}
